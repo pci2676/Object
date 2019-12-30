@@ -1,4 +1,11 @@
 package discount.policy;
 
-public class AmountPolicy implements DiscountPolicy {
+import movie.Money;
+import movie.Screening;
+
+public class AmountPolicy extends DiscountPolicy {
+    @Override
+    protected Money getDiscountAmount(Screening screening) {
+        return null;
+    }
 }
