@@ -18,7 +18,7 @@ public abstract class DiscountPolicy {
     public Money calculateDiscountAmount(Screening screening) {
         for (DiscountCondition condition : discountConditions) {
             if (condition.isSatisfiedBy(screening)) {
-                return getDiscountAmount(screening);
+                return getDiscountAmount(screening); // Template Method Pattern 중간에 필요한 처리를 자식 클래스에게 위임하는 패턴
             }
         }
 
