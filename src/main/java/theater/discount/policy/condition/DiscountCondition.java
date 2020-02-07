@@ -1,6 +1,6 @@
-package discount.policy.condition;
+package theater.discount.policy.condition;
 
-import movie.Screening;
+import theater.movie.Screening;
 
 public interface DiscountCondition {
     boolean isSatisfiedBy(Screening screening);

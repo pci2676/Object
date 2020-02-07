@@ -1,8 +1,8 @@
-package discount.policy;
+package theater.discount.policy;
 
-import discount.policy.condition.DiscountCondition;
-import movie.Money;
-import movie.Screening;
+import theater.discount.policy.condition.DiscountCondition;
+import theater.movie.Money;
+import theater.movie.Screening;
 
 import java.util.Arrays;
 import java.util.List;

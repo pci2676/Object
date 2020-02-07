@@ -1,4 +1,4 @@
-package movie;
+package theater.movie;
 
 import java.math.BigDecimal;
 

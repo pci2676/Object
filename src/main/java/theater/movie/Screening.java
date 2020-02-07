@@ -1,4 +1,4 @@
-package movie;
+package theater.movie;
 
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;

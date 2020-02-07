@@ -1,6 +1,6 @@
-package reservation;
+package theater.reservation;
 
-import movie.Screening;
+import theater.movie.Screening;
 
 import java.time.LocalDateTime;
 

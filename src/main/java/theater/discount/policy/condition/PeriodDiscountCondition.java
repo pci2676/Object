@@ -1,17 +1,17 @@
-package discount.policy.condition;
+package theater.discount.policy.condition;
 
-import movie.Screening;
+import theater.movie.Screening;
 
 import java.time.DayOfWeek;
 import java.time.LocalDateTime;
 
-public class PeriodCondition implements DiscountCondition {
+public class PeriodDiscountCondition implements DiscountCondition {
 
     private DayOfWeek dayOfWeek;
     private LocalDateTime startTime;
     private LocalDateTime endTime;
 
-    public PeriodCondition(DayOfWeek dayOfWeek, LocalDateTime startTime, LocalDateTime endTime) {
+    public PeriodDiscountCondition(DayOfWeek dayOfWeek, LocalDateTime startTime, LocalDateTime endTime) {
         this.dayOfWeek = dayOfWeek;
         this.startTime = startTime;
         this.endTime = endTime;
