@@ -1,4 +1,4 @@
-package theater.discount.policy.condition;
+package theater.discount.condition;
 
 import theater.movie.Screening;
 

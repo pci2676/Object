@@ -1,11 +1,19 @@
 package theater.reservation;
 
+import theater.customer.Customer;
+import theater.movie.Money;
 import theater.movie.Screening;
 
-import java.time.LocalDateTime;
-
 public class Reservation {
-    private Long id;
+    private Customer customer;
     private Screening screening;
-    private LocalDateTime createdTime;
+    private Money fee;
+    private int audiencCount;
+
+    public Reservation(final Customer customer, final Screening screening, final Money fee, final int audiencCount) {
+        this.customer = customer;
+        this.screening = screening;
+        this.fee = fee;
+        this.audiencCount = audiencCount;
+    }
 }

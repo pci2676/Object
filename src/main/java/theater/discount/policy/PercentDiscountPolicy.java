@@ -1,6 +1,6 @@
 package theater.discount.policy;
 
-import theater.discount.policy.condition.DiscountCondition;
+import theater.discount.condition.DiscountCondition;
 import theater.movie.Money;
 import theater.movie.Screening;
 
